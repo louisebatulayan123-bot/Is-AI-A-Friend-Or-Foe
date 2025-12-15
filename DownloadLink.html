@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Is AI our Friend Or Foe?</title>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <!-- Header with logo + navigation -->
+    <header class="site-header">
+        <div class="logo">
+            <!-- Replace this text with an <img> later if you have a logo -->
+            Is AI our Friend or Foe?
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="FriendOrFoe.html">About AI</a></li>
+                <li><a href="BenefitsOfAI.html">Benefits of AI</a></li>
+                <li><a href="DisadvantagesOfAI.html">Disadvantages of AI</a></li>
+                <li><a href="DownloadLink.html">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="page-content">
+
+    <section class="note note-title">
+        <div class="note-tag">?!</div>
+        <h1>Is AI a friend, a foe, or something between?</h1>
+    </section>
+
+            <h2>Download Our Posters</h2>
+            <p>Click a poster to download it. You can choose either PNG (image) or PDF for printing.</p>
+
+            <!-- English poster -->
+            <div class="poster-download">
+                <h3>English Poster</h3>
+                <a href="ENGLISHPNG.png" download="AI-poster-English">
+                    <img src="ENGLISHPNG.png" alt="English AI poster" class="note-image">
+                </a>
+                <div class="download-links">
+                    <a href="ENGLISHPNG.png" download="AI-poster-English">Download PNG</a>
+                    <a href="ENGLISHPDF.pdf" download="AI-poster-English">Download PDF</a>
+                </div>
+            </div>
+
+            <!-- Welsh poster -->
+            <div class="poster-download">
+                <h3>Welsh Poster</h3>
+                <a href="WELSHPNG.png" download="AI-poster-Welsh">
+                    <img src="WELSHPNG.png" alt="Welsh AI poster" class="note-image">
+                </a>
+                <div class="download-links">
+                    <a href="WELSHPNG.png" download="AI-poster-Welsh">Download PNG</a>
+                    <a href="WELSHPDF.pdf" download="AI-poster-Welsh">Download PDF</a>
+                </div>
+            </div>
+
+    </main>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">To the Top!</button>
+
+<script>
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+</body>
+</html>
